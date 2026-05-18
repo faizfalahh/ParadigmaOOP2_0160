@@ -81,3 +81,6 @@ int main(){
 
   RekeningPremium rp2;
   rp2.setRekening("Dani", 8000000);
+
+  cout << "=== Proses Akhir Bulan - Bank Amru Jaya ===" << endl;
+  cout << "----------------------------" << endl;
