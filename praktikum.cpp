@@ -36,3 +36,12 @@ public:
       nama = n;
       saldo = s;
 }
+    void potongAdmin() override {
+      saldo -= 15000;
+      cout << "subeki     : " << nama << endl;
+      cout << "Tipe     : Konvensional" << endl;
+      cout << "Admin    : Rp 15.000 dipotong" << endl;
+      cout << "Saldo    : Rp " << saldo << endl;
+      cout << "----------------------------" << endl;
+    }
+};
