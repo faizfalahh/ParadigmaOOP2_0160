@@ -32,11 +32,16 @@ public:
 
 class budi : public pekerja, public pelajar {
 public:
-    budi(int umur) :
+    budi(int pUmur) :
         pekerja(pUmur),
         pelajar(pUmur)
     {
         cout << "Budi dibuat\n" << endl;
     }
 };
+
+int main() {
+    budi a(12);
+    return 0;
+}
 
