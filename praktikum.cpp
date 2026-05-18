@@ -17,3 +17,11 @@ public:
       nama = n;
       saldo = s;
 }
+    void potongAdmin() override {
+      cout << "Nama     : " << nama << endl;
+      cout << "Tipe     : Syariah" << endl;
+      cout << "Admin    : Bebas biaya admin" << endl;
+      cout << "Saldo    : Rp " << saldo << endl;
+      cout << "----------------------------" << endl;
+    }
+};
