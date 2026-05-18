@@ -50,3 +50,8 @@ class RekeningPremium : public RekeningBank {
   private:
     string nama;
     double saldo;
+  public:
+    void setRekening(string n, double s){
+      nama = n;
+      saldo = s;
+    }
