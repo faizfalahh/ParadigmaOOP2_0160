@@ -84,3 +84,11 @@ int main(){
 
   cout << "=== Proses Akhir Bulan - Bank Amru Jaya ===" << endl;
   cout << "----------------------------" << endl;
+
+  rs.potongAdmin();
+  rk.potongAdmin();
+  rp1.potongAdmin();
+  rp2.potongAdmin();
+
+  return 0;
+}
