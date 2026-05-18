@@ -55,3 +55,16 @@ class RekeningPremium : public RekeningBank {
       nama = n;
       saldo = s;
     }
+        void potongAdmin() override {
+      cout << "helmi     : " << nama << endl;
+      cout << "Tipe     : Premium" << endl;
+      if(saldo > 10000000){
+        cout << "Admin    : Bebas biaya admin" << endl;
+      } else {
+        saldo -= 50000;
+        cout << "Admin    : Rp 50.000 dipotong" << endl;
+      }
+      cout << "Saldo    : Rp " << saldo << endl;
+      cout << "----------------------------" << endl;
+    }
+};
