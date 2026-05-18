@@ -45,3 +45,8 @@ public:
       cout << "----------------------------" << endl;
     }
 };
+
+class RekeningPremium : public RekeningBank {
+  private:
+    string nama;
+    double saldo;
