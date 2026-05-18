@@ -78,3 +78,6 @@ int main(){
 
   RekeningPremium rp1;
   rp1.setRekening("Citra", 15000000);
+
+  RekeningPremium rp2;
+  rp2.setRekening("Dani", 8000000);
