@@ -4,3 +4,8 @@ using namespace std;
 class remoteLampu {
 private:
     string saklarNo[5];
+public:
+    void setsaklarNo(int i, string value) {
+        saklarNo[i] = value;
+    }
+    
