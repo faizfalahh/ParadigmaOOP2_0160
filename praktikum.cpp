@@ -68,3 +68,7 @@ class RekeningPremium : public RekeningBank {
       cout << "----------------------------" << endl;
     }
 };
+
+int main(){
+  RekeningSyariah rs;
+  rs.setRekening("Ahmad", 5000000);
