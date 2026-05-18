@@ -72,3 +72,6 @@ class RekeningPremium : public RekeningBank {
 int main(){
   RekeningSyariah rs;
   rs.setRekening("Ahmad", 5000000);
+
+  RekeningKonvensional rk;
+  rk.setRekening("Budi", 2000000);
