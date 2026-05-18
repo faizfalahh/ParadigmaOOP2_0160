@@ -27,6 +27,12 @@ public:
 };
 
 class RekeningKonvensional : public RekeningBank {
-  private:
+private:
     string nama;
     double saldo;
+
+public:
+    void setRekening(string n, double s){
+      nama = n;
+      saldo = s;
+}
