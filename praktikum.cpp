@@ -75,3 +75,6 @@ int main(){
 
   RekeningKonvensional rk;
   rk.setRekening("Budi", 2000000);
+
+  RekeningPremium rp1;
+  rp1.setRekening("Citra", 15000000);
