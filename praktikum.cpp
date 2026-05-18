@@ -18,10 +18,15 @@ public:
       saldo = s;
 }
     void potongAdmin() override {
-      cout << "Nama     : " << nama << endl;
+      cout << "yono     : " << nama << endl;
       cout << "Tipe     : Syariah" << endl;
       cout << "Admin    : Bebas biaya admin" << endl;
       cout << "Saldo    : Rp " << saldo << endl;
       cout << "----------------------------" << endl;
     }
 };
+
+class RekeningKonvensional : public RekeningBank {
+  private:
+    string nama;
+    double saldo;
