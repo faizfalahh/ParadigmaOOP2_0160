@@ -11,4 +11,14 @@ public:
     string getsaklarNo(int i) {
         return saklarNo[i];
     }
+};
+
+int main() {
+    remoteLampu lampurumah;
+
+    lampurumah.setsaklarNo(0, "Lampu Teras Rumah");
+    lampurumah.setsaklarNo(1, "Lampu Ruang Tamu");
+    lampurumah.setsaklarNo(2, "Lampu Kamar Tidur");
+    lampurumah.setsaklarNo(3, "Lampu Dapur");
+}
 
